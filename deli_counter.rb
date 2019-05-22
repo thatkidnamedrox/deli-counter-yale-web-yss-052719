@@ -28,7 +28,7 @@ def now_serving(deli)
   if deli.size() < 1
     puts "There is nobody waiting to be served!"
   else
-    name = deli.shift()
+    name = deli.shift
     puts "Currently seving #{name}."
   end
 end
