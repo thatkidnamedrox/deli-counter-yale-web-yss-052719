@@ -20,7 +20,7 @@ end
 def take_a_number(line, name)
   line.push(name)
 
-  position = line.size() + 1
+  position = line.size()
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
