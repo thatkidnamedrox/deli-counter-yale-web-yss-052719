@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(deli)
   if (deli.size() < 1)
-    return "The line is currently empty"
+    puts "The line is currently empty"
   end
 
   message = "The line is currently:"
@@ -14,4 +14,5 @@ def line(deli)
   end
 
   message.concat(numbered_list)
+  puts message
 end
